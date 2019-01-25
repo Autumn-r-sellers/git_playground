@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel = "stylesheet" type = "text/css" href = "styles.css" />
-</head>
-<body>
-  <script src="scripts.js"></script>
-  <h1>Hello!</h1>
-  <p>Add your name and interests to the table below.</p>
-  <table>
-    <tr>
-      <th>First Name</th>
-      <th>Last name</th>
-      <th>Favorite color</th>
-      <th>Hobby</th>
-    </tr>
-    <tr>
-      <td>Andy</td>
-      <td>Kimbell</td>
-      <td>Blue</td>
-      <td>Playing piano</td>
-    </tr>
-  </table>
-</body>
+  <head>
+    <link rel="stylesheet" type ="text/css" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <header class="page-header">
+    </header>
+    <script src="js/script.js"></script>
+    <div class="container">
+      <div class="column">
+        <h1>Welcome to the Code Louisville Collaboration Project</h1>
+        <p>This is a collaborative project for the January Front-End Web Development group which meets on Thursdays. You're welcome, and encouraged, to fork this project via Github, add your information to the site, make modifications, and submit a pull request to incorporate your changes.</p>
+        <p>This <a href="https://gist.github.com/Chaser324/ce0505fbed06b947d962">link</a> shows you how to create a fork so you can contribue to the project.</p>
+        <p>You can use <a href="https://www.pixabay.com">Pixabay</a> to link an image, or images, related to your interests.</p>
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Github Profile</th>
+            <th>Favorite Color</th>
+            <th>Interests</th>
+          </tr>
+          <tr>
+            <td>Andy Kimbell</td>
+            <td><a href="https://github.com/makimbell">makimbell</a></td>
+            <td>Blue #0000FF <div class ="color-box" style="background: #0000FF"></div></td>
+            <td>Playing piano.</td>
+          </tr>
+          <tr>
+            <td>Jonathan Allen</td>
+            <td><a href="https://github.com/nocjallen">nocjallen</a></td>
+            <td>Gunmetal #2C3539 <div class ="color-box" style="background: #2C3539"></div></td>
+            <td>Playing cello and brewing beer.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="photo-album">
+        <img src="https://cdn.pixabay.com/photo/2014/05/21/15/47/piano-349928_960_720.jpg">
+        <img src="https://cdn.pixabay.com/photo/2013/05/14/02/49/cello-110981_960_720.jpg">
+        <img src="https://cdn.pixabay.com/photo/2018/10/30/10/25/alcohol-3783314_960_720.jpg">
+    </div>
+  </body>
 </html>
